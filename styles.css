@@ -13,11 +13,13 @@
 }
 .btn{
     background-color: rgba(233, 90, 8, 1);
-    padding: 15px 90px;
+    width: 100%;
+    padding: 15px;
     color: white;
     font-size: 0.8rem;
     font-weight: 600;
     border: none;
+    
 }
 /* header style */
 
@@ -106,6 +108,9 @@ nav{
 .plants-section-card{
     text-align: center;
 }
+.plants-section-card img{
+    width: 100%;
+}
 .plant-name{
     font-size: 1.2rem;
     font-weight: 400;
@@ -113,4 +118,9 @@ nav{
 .price{
     font-size: 1rem;
     font-weight: bold;
+}
+@media screen and (max-width:576px) {
+    .plants-section-card-container{
+        grid-template-columns: repeat(2,1fr);
+    }
 }
