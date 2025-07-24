@@ -11,6 +11,14 @@
 .grey{
     color: rgba(0, 0, 0, 0.5);
 }
+.btn{
+    background-color: rgba(233, 90, 8, 1);
+    padding: 15px 90px;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 600;
+    border: none;
+}
 /* header style */
 
 /* navbar style */
@@ -68,4 +76,41 @@ nav{
     .banner{
         flex-direction: column-reverse;
     }
+}
+
+/* main style */
+
+/* plant section style */
+.plants-section{
+    max-width: 1140px;
+    margin: 0 auto ; 
+}
+.plants-section-info{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.plants-section-title{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.plants-section-description{
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1.25rem;
+}
+.plants-section-card-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+}
+.plants-section-card{
+    text-align: center;
+}
+.plant-name{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.price{
+    font-size: 1rem;
+    font-weight: bold;
 }
