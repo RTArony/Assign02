@@ -198,3 +198,40 @@ nav{
 .btn2{
     width: 30%;
 }
+
+/* footer style */
+footer{
+    display: flex;
+    max-width: 1140px;
+    margin: 100px auto;
+    justify-content: space-around;
+}
+.footer-link{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    max-width: 400px;
+    width: 100%;
+}
+.footer-logo p{
+    max-width: 300px;
+    font-size: 1.5rem;
+}
+.footer-link a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+}
+.footer-icon{
+    max-width: 200px;
+    width: 100%;
+}
+.footer-icon img{
+    margin-right: 0.7rem;
+}
+@media screen and (max-width:576px){
+    footer{
+        flex-direction: column;
+    }
+    .footer-link{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
