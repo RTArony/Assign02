@@ -40,6 +40,11 @@ nav{
     width: 30%;
     height: 30%;
 }
+@media screen and (max-width:576px) {
+    .hide{
+        display: none;
+    }
+}
 
 /* banner style */
 .banner{
@@ -58,4 +63,9 @@ nav{
 }
 .banner img{
     width: 100%;
+}
+@media screen and (max-width:576px) {
+    .banner{
+        flex-direction: column-reverse;
+    }
 }
