@@ -137,6 +137,10 @@ nav{
 .lover-img img{
     width: 100%;
 }
+/* .badge{
+    position: relative;
+    width: 10%;
+} */
 .lover-info{
     max-width: 600px;
 }
@@ -148,8 +152,22 @@ nav{
     font-size: 1.5rem;
     font-weight: 400;
 }
+
+.badge{
+    position: absolute;
+    max-width: 250px;
+    width: 100%;
+    top: 1040px;
+    left: 270px;
+}
+
 @media screen and (max-width:576px){
     .plants-lover-section{
         flex-direction: column;
+    }
+}
+@media screen and (max-width:1200px){
+    .badge{
+        display: none;
     }
 }
