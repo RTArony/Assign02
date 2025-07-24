@@ -1,12 +1,23 @@
 /* shared style */
-
+.margin-bottom{
+    margin-bottom: 100px;
+}
+.black{
+    color: rgba(0, 0, 0, 1) ;
+}
+.orange{
+    color: rgba(233, 90, 8, 1) ;
+}
+.grey{
+    color: rgba(0, 0, 0, 0.5);
+}
 /* header style */
 
 /* navbar style */
 nav{
     display: flex;
     max-width: 1140px;
-    margin-left: 200px;
+    margin: 0 auto;
     align-items: center;
     justify-content: space-between;
 }
@@ -31,3 +42,20 @@ nav{
 }
 
 /* banner style */
+.banner{
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    align-items: flex-end;
+}
+.banner-title{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.banner-description{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.banner img{
+    width: 100%;
+}
