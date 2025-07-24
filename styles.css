@@ -86,6 +86,7 @@ nav{
 .plants-section{
     max-width: 1140px;
     margin: 0 auto ; 
+    /* border: 1px solid tomato; */
 }
 .plants-section-info{
     text-align: center;
@@ -122,5 +123,33 @@ nav{
 @media screen and (max-width:576px) {
     .plants-section-card-container{
         grid-template-columns: repeat(2,1fr);
+    }
+}
+
+/* plant lover section style */
+.plants-lover-section{
+    display: flex;
+    max-width: 1140px;
+    margin: 100px auto;
+    gap: 50px;
+    align-items: center;
+}
+.lover-img img{
+    width: 100%;
+}
+.lover-info{
+    max-width: 600px;
+}
+.lover-title{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.lover-list{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+@media screen and (max-width:576px){
+    .plants-lover-section{
+        flex-direction: column;
     }
 }
