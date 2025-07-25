@@ -135,8 +135,19 @@ nav{
     gap: 50px;
     align-items: center;
 }
+.lover-img{
+    position: relative;
+    width: 100%;
+}
 .lover-img img{
     width: 100%;
+}
+.badge{
+    position: absolute;
+    top: -50px;
+    left: 170px;
+    width: 250px;
+    max-width: 100%;
 }
 .lover-info{
     max-width: 600px;
@@ -150,20 +161,20 @@ nav{
     font-weight: 400;
 }
 
-.badge{
+/* .badge{
     position: absolute;
     max-width: 250px;
     width: 100%;
     top: 1040px;
     left: 270px;
-}
+} */
 
 @media screen and (max-width:576px){
     .plants-lover-section{
         flex-direction: column;
     }
 }
-@media screen and (max-width:1200px){
+@media screen and (max-width:1140px){
     .badge{
         display: none;
     }
@@ -265,9 +276,12 @@ nav{
 
 /* join section style */
 .join-section{
-    max-width: 1440px;
+    max-width: 100%;
     height: 530px;
     background-image: url(assets/news-letter-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     margin: 100px auto;
     align-content: center;
     text-align: center;
